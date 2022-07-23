@@ -1,0 +1,142 @@
+/*.navigation-mobile{
+    display: none;
+}*/
+.line{
+    
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+    background-color: black;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+    width: 50px;
+}
+
+
+
+@media only screen and (max-width:1000px){
+    
+   /* .mobile {
+        display: flex;
+        
+        justify-content: space-around;
+        align-items: center;
+    }
+    .nav-left {
+        width: 35%;
+    }
+   
+    .navigation-mobile{
+        display:block;
+        font-family: var(--font1);
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-shadow: 0 5px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+        top: 0;
+        position: sticky;
+        background-color:white;
+        z-index:1;  
+    } .show{ 
+        -webkit-tap-highlight-color: transparent;
+        display: none;
+    }
+    
+  */
+  .nav-left{
+    width: 100%;
+    height: 64px;
+    justify-content:space-between;
+    
+} 
+.nav-left-border{
+    border-bottom: 2px solid rgba(0,0,0,.16);
+}
+    
+    .burger{
+        display:block;
+    }
+   .navigation{
+       flex-direction: column;
+        transition: 0.2s ease-in-out;
+        left: 0;
+
+   }
+   .hnav{
+       height: fit-content;
+   }
+   .nav-list ul{
+      display: block;
+   }
+   .nav-list ul li{
+       
+       padding: 10px;
+       font-size: 20px;
+       border-bottom: 2px solid rgba(0,0,0,.16);
+       text-align: center;
+       
+   }
+   .nav-right{
+       margin: 10px 0 10px 0;
+      
+   }
+   .nav-right form{
+      display: flex;
+      flex-direction: column;
+       
+   }
+   .nav-right form input{
+       width: 100%;
+       margin-bottom: 5px;
+   }
+  
+   .show{
+       display: none;
+   }
+
+
+
+
+
+    .content-right{
+        display: none;
+    }
+    .home-article{
+        flex-direction: column;
+        margin: auto;
+    }
+    .home-article-image{
+        text-align: center;
+        width: 75vw;
+        margin: auto;
+    }
+    .home-article-image img{
+        
+        width: 100%;
+    }
+    
+    .btn-blue{
+        width: 100px;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .footer-list{
+    
+    flex-direction:column;
+    
+    }
+    .para{
+        max-width:80vw;
+    }
+    .post h1{
+   line-height: 1.25;
+    font-size: 30px;
+    letter-spacing: 1px;
+    }
+    }
+

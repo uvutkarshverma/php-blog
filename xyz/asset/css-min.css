@@ -1,0 +1,100 @@
+
+.message { 
+    color:red; 
+    font-family: arial; 
+    margin-left: 500px; 
+    
+    }
+    
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+    
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+    
+    tr:nth-child(even){background-color: #E6DEDC}
+    
+    
+    .editbtn{ 
+        transition: all linear 0.2s;
+        background: #66ad44;
+       
+        border: none;
+        font-size: 13px;
+        line-height: 22px;
+        border-radius: 0;
+        padding: 6px 14px;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 2px;
+    
+      color: white;
+      }
+     .editbtn a{
+    text-decoration: none;
+    color: #FEFEFE;
+       }
+    
+    .delbtn{ 
+        transition: all linear 0.2s;
+        background: #FC0527;
+       
+        border: none;
+        font-size: 13px;
+        line-height: 22px;
+        border-radius: 0;
+        padding: 6px 14px;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 2px;
+    
+      color: white;
+      }
+     .delbtn a{
+    text-decoration: none;
+    color: #FEFEFE;
+       }
+    
+    .subbtn{ 
+        transition: all linear 0.2s;
+        background: #66ad44;
+       
+        border: none;
+        font-size: 13px;
+        line-height: 22px;
+        border-radius: 0;
+        padding: 6px 14px;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 2px;
+      }
+     .subbtn a{
+    text-decoration: none;
+    color: #FEFEFE;
+       }
+
+
+       .pagination ul{
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+    }
+    
+    
+    .pagination ul a{
+        list-style: none;
+        padding: 10px;
+        font-size: 20px;
+        color: rgb(253, 253, 253);
+        background-color: #3367d6;
+        margin:10px;
+        text-decoration: none;
+    }
+    .active{
+        background-color: #9495ce !important;
+    }

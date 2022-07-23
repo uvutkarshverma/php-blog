@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+
+}
+.navigation{
+    
+    font-family: var(--font1);
+    height: 64px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 5px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.23);
+    top: 0;
+    position: sticky;
+    background-color:white;
+    z-index:1;
+}
+
+.nav-left{
+    width: 20%;
+    display: flex;
+    justify-content:center;
+
+}
+.nav-left span,.footer-list span{
+    
+    -webkit-font-smoothing: antialiased;
+    
+    display: block;
+    font-size: 1.52222rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.55556rem;
+    text-rendering: optimizeLegibility;
+    
+    
+    
+
+}
+.nav-left span a,.footer-list span a{
+    text-decoration: none;
+    color: #5f6368;
+}
+.nav-list{
+    
+    width: 75% ;
+}
+.nav-list ul{
+    display: flex;
+}
+.nav-list ul li{
+    list-style: none;
+    padding: 0 30px;
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color:black;
+    
+}
+
+.nav-right input{
+    outline: none;
+    color: black;
+    border: none;
+    background-color: #f5f5f5;
+    padding: 13px;
+    width: 65%;
+    font: inherit;
+    color: inherit;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.content{
+    font-family: var(--font2);
+    height: 50vh;
+    /*background-color: rgb(217, 217, 243);5Sn,AL$vMJEF*/
+    display: flex;
+    margin: 30px 0 30px 0;
+    position:relative;
+    
+}
+.content::after{
+    content:"";
+    background-image: url('../img/indexpage.png');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.1;
+    z-index: -1;
+    
+
+}
+.hr{
+    border-bottom: 2px solid rgba(0,0,0,.16);
+}
+.content-left{
+    font-family: var(--font1);
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+    
+
+
+}
+
+
+
+.home-articles{
+    
+    padding-top:10px ;
+    background-color: #f4f4fb;
+    position: relative;
+}
+
+
+
+
+
+.home-article{
+    display: flex;
+    margin: 25px;
+}
+.home-article-image img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+.home-articles-content {
+    align-self: center;
+    padding:25px;
+
+}
+.home-articles-content a,.home-articles-content p{
+    text-decoration: none;
+    color: black;
+    font-family: var(--font1);
+}
+.home-articles-content span{
+    font-family: var(--font2);
+
+}
+.home-post-button a{
+    color: white;
+}
+
+.footer{
+   
+    height: 100px;
+    background-color:#f5f5f5;
+}
+.footer-list{
+    display:flex;
+    padding-top:40px;
+    
+    
+}
+.footer-list span{
+    width:20%;
+    text-align:center;
+}
+.footer-list ul{
+    display:flex;
+    width:80%;
+   flex-wrap: wrap;
+}
+.footer-list ul li{
+     list-style: none;
+      
+}
+.footer-list ul a{
+   text-decoration:none;
+   color:black;
+}
+
+
+
+
+.pagination ul{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+
+
+.pagination ul a{
+    list-style: none;
+    padding: 10px;
+    font-size: 20px;
+    color: rgb(253, 253, 253);
+    background-color: #3367d6;
+    margin:10px;
+    text-decoration: none;
+}
+.active{
+    background-color: #9495ce !important;
+}
+.message {
+    padding: 18px;
+    font-size: 20px;
+    background-color: #efeeed;
+}
+.fail{
+    color: red;
+}
+ .success{
+     color:green;
+ } 
+

@@ -1,0 +1,100 @@
+
+.postmeta{
+    display: flex;
+    margin-bottom:25px;
+    justify-content: space-between;
+}
+.author{
+    margin: 10px 0;
+    
+}
+.social{
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+
+
+.post{
+    
+    height: 50vh;
+    /*background-color: rgb(217, 217, 243);*/
+    display: flex;
+    margin: 30px 0 0px 0;
+    position:relative;
+    
+}
+.post::after{
+    content:"";
+    background-image: url('../../img/indexpage.png');
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.1;
+    z-index: -1;
+    
+
+}
+
+.post h1{
+    line-height: 1.17857;
+    font-size:40px;
+    letter-spacing: 1px;
+    text-align: center;
+
+}
+.para{
+    
+    font-weight: normal;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    max-width:60vw;
+        line-height: 2;
+    letter-spacing: 1px;
+}
+
+.para h1,.para h2,.para h3,.para h4,.para h5,.para h6{
+    margin-bottom:25px;
+    font-family: var(--font2);
+      
+}
+
+.para p{
+    margin-bottom:30px;
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+.para ul,.para ol{
+    margin-bottom:30px;
+}
+.para ul li,.para ol li{
+    font-family: Roboto,Arial,Helvetica,sans-serif;
+}
+.para ul li a,.para ol li a{
+    text-decoration:none;
+}
+.yt{
+    width:100%;
+    object-fit: cover;
+    height:450px;
+}
+.imga{
+    
+    display:block;
+    width:80%;
+    margin:5px auto 5px auto;
+}
+
+
+
+
+
+
+.row{
+    display: flex;
+    
+}
+.more-post{
+    flex-direction: column;
+    
+    align-items: center;}
+

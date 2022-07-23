@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap');
+
+:root {
+    --main-bg-color: pink;
+    --font1:Google Sans,Roboto,Arial,Helvetica;
+    --font2:Akaya Kanadaka, cursive;
+
+  }
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+    
+}
+.font3{
+    font-family: var(--font2);
+    font-weight: 400px;
+}
+
+h1{
+    text-transform: uppercase;
+}
+.m-auto{
+    margin: auto;
+}
+.align-c{
+    text-align: center;
+}
+.max-width1{
+    max-width: 100vw;
+}
+.max-width2{
+    max-width: 80vw;
+}
+.btn-blue{
+    background: #3367d6;
+    border: 0;
+    color:#fff;
+    padding: 10px 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+    font-family: var(--font1);
+    
+    
+}
+hr{
+    margin: 5px;
+}
+.heading-p{
+    font-size:25px;
+}
+
+
